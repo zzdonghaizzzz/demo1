@@ -26,7 +26,7 @@ app.set('view engine', 'ejs');
 /// 					 		Config
 /// ................................................................
 /// Tham số
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 /// ------------------ Khai bao cac Folder Tĩnh, Session, Cookies
 app.use(express.static('public'));
 
